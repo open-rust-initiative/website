@@ -11,3 +11,5 @@ tags: ["Cannabis", "Driving", "Marijuana", "Drugs"]
 group: "Featured"
 ---
 This is a test post from rust-lang repo.
+Test if this file was modifyed by author in website 
+bala bala
