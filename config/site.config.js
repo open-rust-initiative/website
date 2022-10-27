@@ -1,15 +1,15 @@
 export default {
   "metaData": {
-    "title" : "Banter | Multipurpose NextJS Blog Template",
-    "description" : "Banter - a modern, stylish Tailwind CSS template for any blog, magazine, or news site.",
+    "title" : "Rust Lang Pub | Rust 中国开源社区",
+    "description" : "Rust Lang Pub - a modern, stylish Tailwind CSS template for any blog, magazine, or news site.",
     "author" : "Tailwind Awesome",
     "keyword" : "magazine, multipurpose, react, nextjs, blog, template",
     "ogImage" : "/images/ogimage.jpg"
   },
-  "baseURL" : "https://banter.tailwindawesome.com/",
+  "baseURL" : "https://rust-lang.pub/",
   "logo" : "/images/banter-logo.png",
-  "logoText" : "Banter",
+  "logoText" : "Rust 中国开源社区",
   "favicon" : "/images/banter-icon-logo.png",
   "postPerPage" : 6,
-  "copyright" : "© 2022 Banter. All rights reserved."
+  "copyright" : "© 2022 Open Rust Initiative All rights reserved."
 }
