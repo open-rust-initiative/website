@@ -38,8 +38,8 @@ export default function Navbar() {
                     <Image 
                       src={siteConfig.logo} 
                       alt={siteConfig.logoText}
-                      width={129.6}
-                      height={36}
+                      width={40}
+                      height={40}
                       layout="fixed"
                       className="w-auto h-9"
                     />

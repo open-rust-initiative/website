@@ -7,9 +7,9 @@ export default {
     "ogImage" : "/images/ogimage.jpg"
   },
   "baseURL" : "https://rust-lang.pub/",
-  "logo" : "/images/banter-logo.png",
+  "logo" : "/images/rust-cn-logo.png",
   "logoText" : "Rust 中国开源社区",
-  "favicon" : "/images/banter-icon-logo.png",
+  "favicon" : "/images/rust-cn-logo.png",
   "postPerPage" : 6,
   "copyright" : "© 2022 Open Rust Initiative All rights reserved."
 }

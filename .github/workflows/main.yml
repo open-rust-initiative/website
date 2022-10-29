@@ -1,0 +1,14 @@
+name: Website Build Dokcer image and upload to registry
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    uses: open-rust-initiative/freighter/.github/workflows/do-common-build.yml@main
+    with:
+      image-name: website:latest
+    secrets: inherit
