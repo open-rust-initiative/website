@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+
 import { formatDate } from '../../utils/formatDate'
 
 export default function FeaturedArticles({authors, posts}) {

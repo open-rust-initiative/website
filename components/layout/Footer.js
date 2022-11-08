@@ -30,26 +30,6 @@ export default function Footer() {
               </a>
             </Link>
           </div>
-
-          {/* Social Links*/}
-          <div className="flex items-center justify-center mt-6 sm:mt-0">
-            <ul className="flex items-center space-x-3 sm:ml-4">
-              {socialLinks.map((item) => (
-                <li key={item.name} >
-                  <a href={item.href} className="flex items-center justify-center w-10 h-10 transition duration-300 ease-in-out bg-transparent border rounded-full border-gray-300/70 sm:w-12 sm:h-12 group">
-                    <span className="sr-only">{item.name}</span>
-                    { getSocialIconComponent({
-                      name: item.name, 
-                      props: { 
-                        className: "w-3.5 h-3.5 text-gray-700 transition duration-300 ease-in-out transform group-hover:text-red-700 group-hover:scale-110" 
-                      }
-                    }) }
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
         </div>
 
         {/* Footer Links Container */}

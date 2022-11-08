@@ -59,27 +59,18 @@ export default {
       ]
     }
   ],
-
   "footer": [
     {
-      "name": "Home",
+      "name": "网站首页",
       "link": "/"
     },
     {
-      "name": "About us",
+      "name": "我们是谁",
       "link": "/about"
     },
     {
-      "name": "Contact us",
+      "name": "联系我们",
       "link": "/contact"
-    },
-    {
-      "name": "Privacy policy",
-      "link": "/privacy"
-    },
-    {
-      "name": "Terms & Conditions",
-      "link": "/privacy"
     }
   ]
 }
