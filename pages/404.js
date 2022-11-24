@@ -14,17 +14,17 @@ export default function Custom404({featuredPosts, authors}) {
           {/* Page not found */}
           <div className="flex flex-col justify-center lg:w-1/2 xl:w-2/5">
             <div className="max-w-lg">
-              <p href="#" className="relative text-sm tracking-widest text-red-800 uppercase">Error 404</p>
-              <h2 className="mt-3 text-4xl font-medium tracking-normal text-gray-900 md:tracking-tight lg:leading-tight md:text-5xl">Page not found</h2>
+              <p href="#" className="relative text-sm tracking-widest text-red-800 uppercase">Opps!</p>
+              <h2 className="mt-3 text-4xl font-medium tracking-normal text-gray-900 md:tracking-tight lg:leading-tight md:text-5xl">您搜索的文章不存在</h2>
               <div>
                 <p className="mt-4 text-base leading-loose text-gray-600">
-                  Sorry, the page you are looking for does not exist. Try going back or visiting a different link.
+                  对不起，你要找的页面不存在。请尝试返回或访问另一个链接。
                 </p>
               </div>
               <div className="inline-block">
                 <Link href="/">
                   <a className="flex items-center mt-4 text-red-700 no-underline transition duration-300 ease-in-out sm:mt-5 hover:text-red-600 group">
-                    Go back home
+                    返回首页
                     <ArrowSmRightIcon className="w-5 h-5 ml-2 transition duration-300 ease-in-out group-hover:text-red-700 group-hover:translate-x-1.5" />
                   </a>
                 </Link>
